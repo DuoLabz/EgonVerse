@@ -1,0 +1,171 @@
+body{
+    background-image: url("./assets2/bg.png");
+    background-size: cover;
+    object-fit: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    word-wrap: normal;
+    letter-spacing: 3px;
+}
+
+.altfont{
+    font-family: bentonite;
+}
+
+.frame{
+    /* height: 500px !important; */
+    width: 400px !important;
+}
+
+.transparentBox{
+    background-image: url("./assets2/frame.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:center;
+    /* object-fit:fill; */
+    position: relative;
+    width: 375px;
+    height: 550px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    color: white;
+}
+.bgimg{
+    width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+      z-index: -100;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+
+.buttonConnect{
+    height: 55px;
+    cursor: pointer;
+}
+
+
+.logoDiv{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+}
+
+.outline{
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: bisque;
+    border-style: solid;
+}
+
+.Container{
+    display:flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: myFont;
+}
+
+.mintBtnDiv{
+    margin-top: 30px;
+    bottom: 20px;
+    display: inline-block;
+}
+
+.numbering{
+        position: relative;
+        top:-47px;
+}
+
+.counterbtn{
+    display:inline-flex;
+    font-size:xx-large;
+    color:black;
+    height:45px;
+}
+
+.nftBox{
+    width: 100%;
+    height: 310px;
+}
+
+.nftText{
+    height: 20px;
+    margin-top: 10px;
+}
+
+.nftImagesDiv{
+    height: 75%;
+}
+
+.nftBackBtnDiv{
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    padding: 10px;
+}
+
+.gifDiv{
+    position: relative;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nftsGif{
+    margin-bottom: 50px;
+    filter: brightness(0.3);
+}
+
+.nftImage{
+    width: 75px;
+    margin: 30px;
+    margin-top: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.nftsGifText{
+    position: absolute; 
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top:50px;
+}
+
+.App{
+    text-align: center;
+}
+
+
+@font-face {
+    font-family: myFont;
+    src: url("./font/speed-rush-italic.ttf");
+}
+
+@media (max-width:786px) {
+    .mintBtnDiv{
+        width: 60%;
+    }
+    .backgroundBat{
+        width: 300px;
+    }
+}
